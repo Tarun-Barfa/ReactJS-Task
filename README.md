@@ -1,16 +1,32 @@
-# React + Vite
+# PopX — React UI Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A pixel-perfect React implementation of the PopX 4-screen mobile app design, built as a qualifier task.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Live app:** <your Vercel link>
+- **Design reference (Adobe XD):** https://xd.adobe.com/view/b68eea25-003d-4a5d-8fdd-d463eeb20b32-e3dd
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React JS (Vite)
+- React Router (navigation between screens)
+- Tailwind CSS
 
-## Expanding the ESLint configuration
+## Screens
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Welcome** — landing screen with Create Account / Login options
+2. **Login** — sign in form, button enables once both fields are filled
+3. **Create Account** — registration form with required-field validation
+4. **Account Settings** — profile view
+
+## Running locally
+
+```bash
+npm install
+npm run dev
+```
+
+## Author
+
+Built by [your name]
