@@ -4,8 +4,7 @@ A pixel-perfect React implementation of the PopX 4-screen mobile app design, bui
 
 ## Live Demo
 
-- **Live app:** <your Vercel link>
-- **Design reference (Adobe XD):** https://xd.adobe.com/view/b68eea25-003d-4a5d-8fdd-d463eeb20b32-e3dd
+- **Live:** https://react-js-task-nine.vercel.app/
 
 ## Tech Stack
 
@@ -27,6 +26,3 @@ npm install
 npm run dev
 ```
 
-## Author
-
-Built by [your name]
